@@ -1,0 +1,53 @@
+.jumbotron {
+    background-image: url("../Images/Background2.jpg");
+    background-size: cover;
+    color: #333;
+  }
+  
+  .row {
+      display: flex;
+  }
+  
+  .v-center {
+  align-items: center;
+  }
+  
+  .split {
+      justify-content: space-between;
+  }
+  
+  .wrapper {
+      margin-top: 20px; 
+  
+  }
+
+
+  .card-img-top {
+      background-image: url("../Images/Work1.jpg");
+      background-size: cover;
+      height:300px;
+  }
+
+  .footer {
+      padding: 30px;
+      color:white;
+      text-align:center;
+      
+  }
+
+.meena {
+    width:5%;
+    margin: 1rem;
+    
+}
+
+
+  @media (max-width: 1000px) {
+    .mobilesmall {
+        font-size: 48px;
+      }
+
+      .card {
+        margin-bottom: 15%;
+    }
+  }
