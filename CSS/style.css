@@ -21,6 +21,15 @@
   
   }
 
+  .fav {
+    text-align: center;
+    padding: 3%;
+}
+
+.favty {
+    text-align: center;
+    padding: 10%;
+}
 
   .card-img-top {
       background-image: url("../Images/work1.jpg");
@@ -29,9 +38,23 @@
   }
 
   .footer {
-      padding: 30px;
-      color:white;
-      text-align:center;
+    background: #333;
+    padding: 30px;
+    color:white;
+    text-align:center;      
+  }
+  
+  
+  .footercontact {
+    background: #333;
+    padding: 30px;
+    color:white;
+    text-align:center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+      
       
   }
 
@@ -40,6 +63,8 @@
     margin: 1rem;
     
 }
+
+
 
 
   @media (max-width: 1000px) {
